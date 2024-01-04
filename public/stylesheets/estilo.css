@@ -23,8 +23,19 @@ header {
     background-color: black;
     margin: 0 auto;
     width: 960px;
+    display:;
+    position: ;
     
-
+        
+}
+header .holder{
+    display: flex;
+    display: inline-block;
+    color: white;
+    font-size: 8px;
+    font-style: italic;
+    position: ;
+    
 }
 
 .audio audio {
@@ -38,29 +49,24 @@ header {
     
 }
 
-header h1 {
-    color: white;
-    font-size: 1rem;
+header .holder{
+   /* color: white;
+    font-size: 8px;
     font-style: italic;
     display: inline-block;
     position: relative;
-    bottom: 31px;
+    bottom: 0px;*/
    
 }
-header h2{
-    color: white;
-    font-size: 1rem;
-    font-style: italic;
-    display: inline-block;
-    position: relative;
-    bottom: 31px;
-}
 
-header h1 .nombre_Marisa {
-    color: white;
+.nombre_Marisa h2{
+    color:white;
     font-size: 1rem;
     font-style: normal;
-    display: inline-block;
+    display:;
+    position: ;
+    display: flex;
+    align-self: center;
     
 }
 
@@ -76,7 +82,7 @@ nav .holder{
     right: 0;
     margin-left: auto;
     margin-right: auto;  
-    
+    margin-top: 55px;
 }
 
 .iconos_menu{
@@ -137,15 +143,16 @@ footer {
 .linkradio {
     text-align: center;
     background-color:#02051f;
-    color: white;
+    color: pink;
     font-size: 20px;
+    margin-bottom: 10px;
 
 }
 
 .foto_quien img {
    
-    width: 405px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin-bottom: 0px;
    
 
@@ -153,7 +160,7 @@ footer {
 
 .quien {
     background-color: #043bf0;
-    height: 485px;
+    height: 430px;
     margin-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -166,11 +173,13 @@ footer {
 /*MI PROGRAMA*/
 
 .menu h2{
-    font-size: 21px;
+    font-size: 25px;
     font-size: bolder;
     font-size: italic;
-    color: white;
-    text-align:left
+    color:pink;
+    text-align:left;
+    margin-top: 45px;
+   
 }
 
 .columnasmp {
@@ -195,8 +204,9 @@ footer {
 .miprogramalink{
     font-size: 20px;
     background-color: #02051f;
-    color: white;
+    color: pink;
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
@@ -212,7 +222,7 @@ footer {
 .fotoprograma0507 img{
     width: 375px;
     height: 500px;
-    
+    margin-top: 10px;
     
 }
 
@@ -243,6 +253,7 @@ footer {
 
 
 /* COLABORADORES*/
+
 
 .fotogrande {
     background-color: #02051f;
@@ -275,14 +286,6 @@ footer {
     margin-top: 0px;
 }
 
-.colaborador2 {
-    margin-right: 40px;
-
-}
-
-.colaborador2 h5 {
-    margin-top: 0px;
-}
 .colaborador3{
     margin-right:40px;
 }
@@ -295,20 +298,28 @@ footer {
 .colaborador4 h5{
     margin-top:0px;
 }
-
-/* NOVEDADES */
-.novedades .menu h2{
-    font-size: 21px;
-    font-size: bolder;
-    font-size: italic;
+.colaboradorCarlos h2{
+    font-size: 20px;
+}
+.colaboradorCarlos{
     color: white;
-    text-align: left;
+}
+.colaboradorCarlos h3{
+    text-align: justify;
 }
 
-.novedades h2{
+/* NOVEDADES */
+
+
+.novedades .menu{
+    height: 10px;
+}
+
+.novedades h3{
     color:rgb(140, 181, 235);
     text-align: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 50px;
 }
 .novedadesface{
     display: flex;
@@ -319,7 +330,10 @@ footer {
     margin-left: 100px;
     font-size: 20px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 50px;
+}
+.novedadesface h3{
+    margin-top: 100px;
 }
 .novedadesface img{
     margin-left: 130px;
@@ -391,7 +405,6 @@ form {
 input[type=text] {
     border: 0;
     border-bottom: 1px solid #90a378;
-    ;
     padding: 15px;
     background-color: white;
 
@@ -400,7 +413,7 @@ input[type=text] {
 input[type=email] {
     border: 0;
     border-bottom: 1px solid #90a378;
-    ;
+    
     padding: 15px;
     background-color: white;
 }
@@ -447,45 +460,44 @@ button  :hover{
         
         /*background-color: #02051f;*/
         margin: 0 auto;
+        width: 320px;
     
-
+           
     }
-    header .holder{
-        display: flex;
-        padding-right: 5px;
-        
-    
-    }
-    header .audio audio img{
+    .audio audio{
         
         align-items: center;
+        width: 130px;
+        border-radius: 100%;
+        
     }
 
-    .audio audio{
-        width: 24px;
-        border-radius: 100%;
-       
-    }
     .audio img{
         margin-left: 15px;
-    }
-    .audio .nombre_Marisa{
-        font-size: 9px;
-
-    }
-    .audio h2{
-        font-size: 8px;
-    }
-
         
-           
+       
+    }
+    header h1{
+        font-size: 12px;
+        
+    }
+    header h2{
+        font-size:10px;
+       
+    }
+
+     .nombre_Marisa{
+        margin-top: 33px;
+        text-align: center;
+        margin-top: 10px;
+     }            
     
     nav .holder{
-       
+        margin-top: 15px;
         display: flex;
         flex-direction: column;
         font-size: 12px;
-        margin-right: ;
+        margin-top:30px;
         padding: auto;
         width: 320px;
     }
@@ -494,20 +506,20 @@ button  :hover{
         justify-content: space-around;
         align-items:center ;
         width: 80px;
-         
+         margin-top: 15px;
     
     }
     .linkRadio img{
-        width: 350px;
+        width: 320px;
         
     }
 
     .linkradio {
         text-align: center;
         background-color:#02051f;
-        color: white;
+        color: pink;
         font-size: 15px;
-        margin-left: 120px;
+        margin-left: 10px;
     
     }
     .columnas {
@@ -527,20 +539,28 @@ button  :hover{
     }
     .quien ul{
         font-size: 10px;
+        margin-right: 20px;
     }
     .menu h2{
         font-size: 17px;
+        font-size: bolder;
+        font-size: italic;
+        color:pink;
+        text-align:left;
+        margin-top: 45px;
+       
     }
 
 .miprograma{
     flex-direction: column;
 }
 .programacion img{
-    width:350px ;
+    width:310px ;
 }
 .miprogramalink{
     font-size: 15px;
     justify-content: center;
+    color: pink;
 }
 
  .programas_anteriores{
@@ -551,20 +571,21 @@ button  :hover{
  .programa_5_7 h2{
     font-size: 11px;
     text-align: center;
-    width: 320px;
+    width: 300px;
+    
 
  }
 
  .programa_5_7 p{
     margin-top: 10px;
-    width: 350px;
+    
 }
 
  .programa_5_7 p{
     font-size: 12px;
     padding-right: 100px;
     margin-left: 10px;
-    width: 310px;
+    width: 295px;
 }
 .fotoprograma0507 img{
     width: 350px;
@@ -572,12 +593,12 @@ button  :hover{
 
 .fotoprograma0507 h2{
     font-size: 11px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .fotogrande img{
     width: 320px;
-    margin-left: 120px;
+    margin-left: 50px;
     margin-bottom: 0;
 }
 .fotoscolaboradores {
@@ -619,38 +640,7 @@ button  :hover{
     font-size: 11px;
     margin-left: 3px;
 }
-.colaborador2 img{
-    margin-left: 60px;
-    margin-top:0;
-   
-}
 
-.colaborador2 img figcaption{
-    margin-top: 0;
-    font-size:13px;
-    text-align: center;
-    flex-direction: column;
-    
-}
-.colaborador2 figcaption{
-    margin-left: 110px;
-    font-size: 13px;
-    width: 100px;
-}
-
-.colaborador2 h5{
-    font-size: 11px;
-    margin-top: 0;
-    margin-bottom: 2px;
-    text-align: center;
-    
-}
-.colaborador2 h4{
-    margin-top: 0;
-    font-size: 11px;
-    text-align: center;
-    
-} 
 
 .colaborador3 img{
     margin-left: 55px;
@@ -719,71 +709,90 @@ button  :hover{
     text-align: center;
     
 }
+.colaboradorCarlos h2{
+    font-size:14px;
+}
+.colaboradorCarlos h5{
+    font-size:11px;
+}
+.colaboradorCarlos h3{
+    font-size: 12px;
+    width: 295px;
+}
 .novedades .menu h2{
-    font-size: 19px;
-    margin-top: 30px;
-    
+        font-size: 17px;
+        font-size: bolder;
+        font-size: italic;
+        color:pink;
+        text-align:left;
+        margin-top: 45px;
+        display: flex;
 }
-.novedades{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
+
+.novedades h3{
+    font-size: 11px; 
+    flex-direction: ;
+    margin-top: 20px;
+    margin-right: 100px;
+    color: pink;
+   margin-bottom: 0px;
 }
+
+
 .novedadesface{
     flex-direction: column;
     
 }
-.novedades h2{
-    font-size: 13px;
-    display: inline-block;
-    width: 200px;
-    margin-left: 50px;
-    margin-top: 10px;
-    
-}
 
 .novedadesface h3{
-    font-size: 12px;
-    margin-top: 10px;
-    margin-right:150px ;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-right:110px ;
     padding-left: 0;
-
+    color:rgb(140, 181, 235);
 }
 .novedadesface img{
     width: 50px;
        
 }
-.contacto .menu h2{
-    margin-left: 50px;
-    margin-top: 40px;
-}
 
 .padrecontacto{
-    display: flex;
     flex-direction: column;
-}
-.contactoMarisa{
-    flex-direction: column;
-    width: 350px;
-    margin-left: 0;
-}
-.contactoradio h2{
-    font-size:13px ;
-    margin-left: 25px;
     
 }
-.contactoradio ol{
-    font-size: 12px;
-    margin-left: 3px;
-   
+.contactoradio ul ol{
+    
+    flex-direction: column;
+    margin-top: 8px;
+    
 }
-
+.contacto .menu h2{
+        font-size: 17px;
+        font-size: bolder;
+        font-size: italic;
+        color:pink;
+        text-align:left;
+        height: 5px;
+           
+}
+.contactoradio h2{
+    font-size: 14px;
+    height: 4px;
+}
+.contactoradio ul{
+        flex-direction: column;
+        height: 85px;
+        
+}
+.contactoMarisa{
+    margin-left: -7px;
+}
 
 .contactoMarisa h2 {
    
     text-align: justify;
     font-size: 15px;
-    width:229px ;
+    
 }
 
 label {
@@ -803,7 +812,7 @@ form {
 input[type=text] {
     border: 0;
     border-bottom: 1px solid #90a378;
-    ;
+    
     padding: 15px;
     background-color: white;
 
